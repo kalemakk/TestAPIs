@@ -1,0 +1,15 @@
+environments:
+    - name: dev
+      configs:
+          endpoints:
+              production:
+                  url: 'https://jsonplaceholder.typicode.com'
+              sandbox:
+                  url: 'https://jsonplaceholder.typicode.com'
+    - name: uat
+      configs:
+          endpoints:
+              production:
+                  url: 'https://jsonplaceholder.typicode.com'
+              sandbox:
+                  url: 'https://jsonplaceholder.typicode.com'
